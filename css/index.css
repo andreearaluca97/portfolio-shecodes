@@ -1,0 +1,45 @@
+body{
+    background: rgba(32, 32, 32, 1);
+
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.1em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+
