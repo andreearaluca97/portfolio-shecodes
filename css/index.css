@@ -41,5 +41,6 @@ button{
     border-radius: 10px;
     border: 1px solid;
     text-align: center;
+    font-weight: bold;
 }
 
