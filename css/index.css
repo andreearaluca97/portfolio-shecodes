@@ -1,11 +1,18 @@
+:root{
+    --contact-color : white;
+    --heading-font-family :'Roboto', sans-serif;
+    --button-font-family:'Montserrat', sans-serif;
+    --background-color:rgba(32, 32, 32, 1);
+}
+
 body{
-    background: rgba(32, 32, 32, 1);
+    background: var(--background-color);
     
 
 }
 
 h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--heading-font-family);
     font-size: 24px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
@@ -15,7 +22,7 @@ h2{
 }
 
 h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--heading-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -25,7 +32,7 @@ h1{
 }
 
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--heading-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -35,13 +42,13 @@ p{
 }
 
 .btn-contact{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--button-font-family);
    
     
     border-radius: 5px;
     border: 1px solid;
     font-weight: bold;
-    background-color: white;
+    background-color: var(--contact-color);
 }
 
 .header{
