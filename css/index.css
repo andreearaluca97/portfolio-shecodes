@@ -1,5 +1,6 @@
 body{
     background: rgba(32, 32, 32, 1);
+    
 
 }
 
@@ -33,14 +34,16 @@ p{
     line-height: 30px;
 }
 
-button{
+.btn-contact{
     font-family: 'Montserrat', sans-serif;
-    display: block;
-    margin: 0 auto;
-    padding: 3px;
-    border-radius: 10px;
+   
+    
+    border-radius: 5px;
     border: 1px solid;
-    text-align: center;
     font-weight: bold;
+    background-color: white;
 }
 
+.header{
+    text-align: center;
+}
