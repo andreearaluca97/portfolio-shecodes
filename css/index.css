@@ -66,3 +66,7 @@ p{
 .fa-linkedin{
     color: gray;
 }
+
+a{
+    text-decoration: none;
+}
