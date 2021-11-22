@@ -3,10 +3,13 @@
     --heading-font-family :'Roboto', sans-serif;
     --button-font-family:'Montserrat', sans-serif;
     --background-color:rgba(32, 32, 32, 1);
+    --heading-color: rgba(255, 255, 255, 1);
+    --icons-color: rgb(124, 123, 123);
 }
 
 body{
     background: var(--background-color);
+   
     
 
 }
@@ -15,7 +18,7 @@ h2{
     font-family: var(--heading-font-family);
     font-size: 24px;
     text-align: center;
-    color: rgba(255, 255, 255, 1);
+    color: var(--background-color);
     letter-spacing: 0.1em;
     font-style: normal;
     font-weight: bold;
@@ -28,16 +31,16 @@ h1{
     font-size: 72px;
     line-height: 84px;
     text-align: center;
-    color: rgba(255, 255, 255, 1);
+    color: var(--heading-color);
 }
 
 p{
     font-family: var(--heading-font-family);
-    font-style: normal;
+    font-style: normal; 
     font-weight: bold;
     font-size: 18px;
     text-align: center;
-    color: rgba(255, 255, 255, 1);
+    color: var(--heading-color);
     line-height: 30px;
 }
 
@@ -56,17 +59,18 @@ p{
 }
 
 .fa-github-square{
-    color: gray;
+    color: var(--icons-color);
 }
 
 .fa-envelope{
-    color: gray;
+    color: var(--icons-color);
 }
 
 .fa-linkedin{
-    color: gray;
+    color: var(--icons-color); 
 }
 
 a{
     text-decoration: none;
 }
+
