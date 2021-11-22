@@ -4,21 +4,17 @@
     --button-font-family:'Montserrat', sans-serif;
     --background-color:rgba(32, 32, 32, 1);
     --heading-color: rgba(255, 255, 255, 1);
-    --icons-color: rgb(124, 123, 123);
+    --icons-color: rgb(255, 249, 249);
+    --name-color: #282323;
 }
 
-body{
-    background: var(--background-color);
-   
-    
-
-}
 
 h2{
     font-family: var(--heading-font-family);
     font-size: 24px;
     text-align: center;
-    color: var(--background-color);
+    
+    color: var(--heading-color);
     letter-spacing: 0.1em;
     font-style: normal;
     font-weight: bold;
@@ -46,7 +42,7 @@ p{
 
 .btn-contact{
     font-family: var(--button-font-family);
-   
+    
     
     border-radius: 5px;
     border: 1px solid;
@@ -74,3 +70,31 @@ a{
     text-decoration: none;
 }
 
+
+body{
+    background: var(--background-color);
+}
+.bg-warning{
+    background-color: var(--name-color)!important;
+}
+.navbar-dark{
+    background-color: var(--background-color)!important;
+}
+
+footer{
+    background-color: var(--name-color);
+ 
+ margin-top: 30rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+img{
+    border-radius: 40px;
+
+    height: 200px;
+    object-fit: contain;
+}
