@@ -96,4 +96,16 @@ footer{
 .card{
     width: 20rem;
     height: 35rem;
+    background-color: var(--background-color);
+    border: 1px white solid;
+    color: var(--heading-color);
+    border-radius: 6px;
+    box-shadow: 1px 1px var(--heading-color);
+    
+}
+
+.card-text{
+    font-family: var(--heading-font-family);
+    color: var(--heading-color);
+
 }
