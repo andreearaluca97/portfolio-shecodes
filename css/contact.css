@@ -1,0 +1,41 @@
+:root{
+    --contact-color : white;
+    --heading-font-family :'Roboto', sans-serif;
+    --button-font-family:'Montserrat', sans-serif;
+    --background-color:rgba(32, 32, 32, 1);
+    --heading-color: rgba(255, 255, 255, 1);
+    --icons-color: rgb(255, 249, 249);
+    --name-color: #282323;
+    --about-color: rgba(246, 82, 130, 1);
+
+}
+
+
+
+body{
+    text-align: center;
+}
+
+.navbar-dark{
+    background-color: var(--name-color)!important;
+    
+}
+
+.list{
+    
+    list-style: none;
+    font-family: var(--heading-font-family);
+    color: var(--heading-color);
+    text-align: center;
+    line-height: 10px;
+}
+
+.details, p {
+    color: var(--about-color);
+    font-size: 18px;
+    font-family: var(--button-font-family);
+}
+
+.fa-mail-bulk{
+    color:var(--about-color);
+}
