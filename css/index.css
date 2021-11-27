@@ -13,7 +13,7 @@ h2{
     font-family: var(--heading-font-family);
     font-size: 24px;
     text-align: center;
-    
+    padding: 10px;
     color: var(--heading-color);
     letter-spacing: 0.1em;
     font-style: normal;
@@ -40,19 +40,12 @@ p{
     line-height: 30px;
 }
 
-.btn-contact{
-    font-family: var(--button-font-family);
-    
-    
-    border-radius: 5px;
-    border: 1px solid;
-    font-weight: bold;
-    background-color: var(--contact-color);
-}
 
-.header{
+
+.header {
     text-align: center;
-}
+    
+  }
 
 .fa-github-square{
     color: var(--icons-color);
@@ -73,16 +66,19 @@ a{
 
 body{
     background: var(--background-color);
+    
 }
 .bg-warning{
     background-color: var(--name-color)!important;
 }
 .navbar-dark{
     background-color: var(--background-color)!important;
+    
 }
 
 footer{
     background-color: var(--name-color);
+    padding: 10px;
  
  margin-top: 30rem;
 }
@@ -90,11 +86,14 @@ footer{
 .links{
     display: flex;
     justify-content: space-evenly;
-    font-size: 17px;
+    font-size: 30px;
 }
-img{
-    border-radius: 40px;
+.card-text{
+    color: var(--background-color);
+    font-family: var(--button-font-family);
+}
 
-    height: 350px;
-    object-fit: cover;
+.card{
+    width: 20rem;
+    height: 35rem;
 }
